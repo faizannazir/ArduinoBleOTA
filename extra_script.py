@@ -27,3 +27,4 @@ def post_program_action(source, target, env):
     # os.system('bash -c "./tools/release_builder/release_builder.sh"')
         
 env.AddPostAction("$PROGPATH", post_program_action)
+env.AddPostAction("buildprog", post_program_action)
