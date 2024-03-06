@@ -7,10 +7,11 @@ BleOtaSecurityOnConnect security;
 
 void setup() {
   ArduinoBleOTA.begin("ArduinoBleOTA", InternalStorage);
-
 #ifdef USE_NIM_BLE_ARDUINO_LIB
   ArduinoBleOTA.setSecurityCallbacks(security);
   security.begin();
+    security.removePin();
+  security.setPin(12345);
 #endif
 }
 
