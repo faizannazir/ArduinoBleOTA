@@ -25,6 +25,5 @@ def post_program_action(source, target, env):
         print(f"Error moving firmware file: {e}")
     
     # os.system('bash -c "./tools/release_builder/release_builder.sh"')
-        
+env.AddPostAction("buildprog", post_program_action)        
 env.AddPostAction("$PROGPATH", post_program_action)
-env.AddPostAction("buildprog", post_program_action)

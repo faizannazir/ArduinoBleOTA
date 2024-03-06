@@ -5,11 +5,26 @@
         {
             "software_name": "Esp32 SW",
             "software_version": [
+                0,
+                0,
+                0
+            ],
+            "software_path": "https://github.com/faizannazir/ArduinoBleOTA/releases/download/bin/firmware_1.1.0.bin",
+            "software_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
+            "hardware_version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "software_name": "Esp32 SW",
+            "software_version": [
                 1,
                 0,
                 0
             ],
-            "software_path": "https://github.com/faizannazir/ArduinoBleOTA/releases/tag/bin/firmware_1.0.0.bin",
+            "software_path": "https://github.com/faizannazir/ArduinoBleOTA/tree/main/release/firmware_1.0.0.bin",
             "software_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
             "hardware_version": [
                 1,

@@ -117,6 +117,7 @@ void loop()
       // Update the previousMillis variable
       previousMillis = currentMillis;
     }
+    previousMillis = 0;
   }
 
   Serial.println("Going to sleep now");
