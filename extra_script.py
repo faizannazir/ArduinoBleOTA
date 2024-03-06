@@ -23,5 +23,7 @@ def post_program_action(source, target, env):
         shutil.move(source_path, destination_path)
     except Exception as e:
         print(f"Error moving firmware file: {e}")
+    
+    # os.system('bash -c "./tools/release_builder/release_builder.sh"')
         
 env.AddPostAction("$PROGPATH", post_program_action)

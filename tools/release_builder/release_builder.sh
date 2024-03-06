@@ -1,12 +1,13 @@
 #!/bin/bash
 
 SCRIPT_DIR=$( cd $( dirname $0 ) && pwd )
-OUT_DIR=$SCRIPT_DIR/out
+
 PROJECT_DIR=$SCRIPT_DIR/../..
+OUT_DIR=$PROJECT_DIR/release
 PIO_BUILD_DIR=$PROJECT_DIR/.pio/build
 EXAMPLE_PATH=$PROJECT_DIR/examples/full/main.ino
 
-source ~/.platformio/penv/bin/activate
+# source ~/.platformio/penv/bin/activate
 
 rm -rf $OUT_DIR
 mkdir -p $OUT_DIR
@@ -54,5 +55,5 @@ build_firmware_for_platform() {
     build_firmware $BUILD_PLATFORM $BUILD_ENV "other_v1.6.6" "Other SW" "SW_VER {1, 6, 6}" "HW_VER {1, 0, 0}"
 }
 
-build_firmware_for_platform "esp32" "esp32dev"
-build_firmware_for_platform "atmelsam" "nano_33_iot"
+build_firmware_for_platform "esp32dev_nimble" 
+# build_firmware_for_platform "atmelsam" "nano_33_iot"
