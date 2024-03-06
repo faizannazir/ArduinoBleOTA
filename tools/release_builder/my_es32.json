@@ -4,7 +4,7 @@
     "softwares": [
         {
 
-            "software_name": "Latest SW 1.2.3",
+            "software_name": "Example SW",
             "software_version": [1, 2, 3],
             "software_path": "https://github.com/faizannazir/ArduinoBleOTA/blob/main/release/firmware_1.2.3.bin",
             "software_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
@@ -13,7 +13,7 @@
         {
             "software_name": "Example SW",
             "software_version": [1, 0, 0],
-            "software_path": "https://github.com/vovagorodok/ArduinoBleOTA/releases/download/v1.0.0/firmware_esp32_example_v1.1.0.bin",
+            "software_path": "https://github.com/faizannazir/ArduinoBleOTA/blob/main/release/firmware_1.2.3.bin",
             "software_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
             "hardware_version": [1, 0, 0]
         }
