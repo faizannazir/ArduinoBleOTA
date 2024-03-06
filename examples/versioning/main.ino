@@ -4,7 +4,7 @@
 #define HW_NAME "Esp32 HW"
 #define HW_VER {1, 0, 0}
 #define SW_NAME "Esp32 SW"
-#define SW_VER {1, 0, 0}
+#define SW_VER {1, 1, 0}
 
 void setup() {
   ArduinoBleOTA.begin(DEVICE_NAME, InternalStorage, HW_NAME, HW_VER, SW_NAME, SW_VER);
