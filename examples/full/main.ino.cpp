@@ -1,3 +1,6 @@
+# 1 "C:\\Users\\HP840G~1\\AppData\\Local\\Temp\\tmpuy97sxm_"
+#include <Arduino.h>
+# 1 "E:/downloads/Esp32BleOta/ArduinoBleOTA/examples/full/main.ino"
 #include <ArduinoBleOTA.h>
 #include <BleOtaSecurityOnConnect.h>
 
@@ -14,18 +17,16 @@
 #define HW_VER {1, 0, 0}
 #define SW_NAME "Example SW"
 #define SW_VER {1, 1, 0}
-
-// #ifdef USE_NIM_BLE_ARDUINO_LIB
-// BleOtaSecurityOnConnect security;
-// #endif
-
+void setup();
+void loop();
+#line 22 "E:/downloads/Esp32BleOta/ArduinoBleOTA/examples/full/main.ino"
 void setup() {
   ArduinoBleOTA.begin(DEVICE_NAME, InternalStorage, HW_NAME, HW_VER, SW_NAME, SW_VER);
 
-// #ifdef USE_NIM_BLE_ARDUINO_LIB
-//   ArduinoBleOTA.setSecurityCallbacks(security);
-//   security.begin();
-// #endif
+
+
+
+
 }
 
 void loop() {
