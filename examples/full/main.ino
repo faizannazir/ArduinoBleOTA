@@ -4,7 +4,7 @@
 #define DEVICE_NAME "ArduinoBleOTA"
 
 #ifdef ARDUINO_ARCH_ESP32
-  #define HW_NAME "Example Esp32"
+  #define HW_NAME "Esp32 HW"
 #elif ARDUINO_ARCH_ATMELSAM
   #define HW_NAME "Example ATMELSAM"
 #else
@@ -12,7 +12,7 @@
 #endif
 
 #define HW_VER {1, 0, 0}
-#define SW_NAME "Example SW"
+#define SW_NAME "Esp32 SW"
 #define SW_VER {1, 1, 0}
 
 // #ifdef USE_NIM_BLE_ARDUINO_LIB

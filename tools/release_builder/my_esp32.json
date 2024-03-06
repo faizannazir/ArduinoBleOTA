@@ -1,9 +1,9 @@
 {
-    "hardware_name": "Esp32",
+    "hardware_name": "Esp32 HW",
     "hardware_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
     "softwares": [
         {
-            "software_name": "Example SW",
+            "software_name": "Esp32 SW",
             "software_version": [
                 1,
                 0,
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "software_name": "Example SW",
+            "software_name": "Esp32 SW",
             "software_version": [
                 1,
                 1,
