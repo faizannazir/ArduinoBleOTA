@@ -1,5 +1,5 @@
 {
-    "hardware_name": "Example Esp32",
+    "hardware_name": "Esp32",
     "hardware_icon": "https://raw.githubusercontent.com/vovagorodok/ble_ota_app/main/web/icons/Icon-192.png",
     "softwares": [
         {
