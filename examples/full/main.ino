@@ -13,7 +13,7 @@
 
 #define HW_VER {1, 0, 0}
 #define SW_NAME "Esp32 SW"
-#define SW_VER {1, 1, 0}
+#define SW_VER {1, 0, 0}
 
 // #ifdef USE_NIM_BLE_ARDUINO_LIB
 // BleOtaSecurityOnConnect security;
