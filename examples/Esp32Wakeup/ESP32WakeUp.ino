@@ -52,7 +52,6 @@ void setup() {
   // Configure built-in LED pin as output
   pinMode(LED_PIN, OUTPUT);
 
-    ArduinoBleOTA.begin(DEVICE_NAME, InternalStorage, HW_NAME, HW_VER, SW_NAME, SW_VER);
 
   // Increment boot count
   ++bootCount;
@@ -85,6 +84,8 @@ void setup() {
     }
     // Keep LED on if wakeup was caused by button press
     else if (esp_sleep_get_wakeup_cause() == ESP_SLEEP_WAKEUP_EXT0) {
+      
+    ArduinoBleOTA.begin(DEVICE_NAME, InternalStorage, HW_NAME, HW_VER, SW_NAME, SW_VER);
       digitalWrite(LED_PIN, HIGH);
         #ifdef USE_ARDUINO_BLE_LIB
           BLE.poll();
