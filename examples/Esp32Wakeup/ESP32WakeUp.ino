@@ -84,7 +84,7 @@ void setup() {
     }
     // Keep LED on if wakeup was caused by button press
     else if (esp_sleep_get_wakeup_cause() == ESP_SLEEP_WAKEUP_EXT0) {
-      
+      delay(1000);
     ArduinoBleOTA.begin(DEVICE_NAME, InternalStorage, HW_NAME, HW_VER, SW_NAME, SW_VER);
       digitalWrite(LED_PIN, HIGH);
         #ifdef USE_ARDUINO_BLE_LIB
