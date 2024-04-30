@@ -4,7 +4,7 @@
 #define HW_NAME "Esp32 HW"
 #define HW_VER {1, 0, 0}
 #define SW_NAME "Esp32 SW"
-#define SW_VER {1, 4, 0}
+#define SW_VER {1, 1, 0}
 #define LED_PIN 2
 
 void setup() {
